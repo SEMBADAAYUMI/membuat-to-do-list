@@ -5,15 +5,33 @@
 }
 body {
   background-color: #54bab9;
+  margin-bottom: 700px;
+}
+/* nav-bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 5px 0;
+  color: #3f4e4f;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 30%;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: #3f4e4f;
+  text-decoration: none;
 }
 .container {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   background-color: #18978f;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
-  width: 460px;
+  width: 500px;
   height: 600px;
   text-align: center;
 }
@@ -35,17 +53,17 @@ button {
   color: #1a4d2e;
 }
 .element-list {
-  height: 550px;
+  height: 500px;
   overflow: auto;
 }
 ul {
-  padding: 15px;
+  padding: 20px;
 }
 li {
   list-style: none;
-  padding: 10px 5px;
+  padding: 5px 5px;
   background-color: #76ba99;
-  margin: 12px 0;
+  margin: 10px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
   border-radius: 3px;
   transition: 0.4s;

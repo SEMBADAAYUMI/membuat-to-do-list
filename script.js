@@ -16,8 +16,8 @@ btn.addEventListener("click", () => {
 });
 //now lets write the function that will allow us to mark the done subject
 //function ini tidak bekerja sebagaimana mestinya di video tutorial padahal sudah diikuti sama persis
-list.addEventListener("click", (i) => {
-  if (i.target.tagName == "LI") {
-    i.target.classList.toggle("checked");
+list.addEventListener("click", (e) => {
+  if (e.target.tagName == "li") {
+    e.target.classList.toggle("checked");
   }
 });
